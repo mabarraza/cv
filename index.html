@@ -3,73 +3,57 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Miguels personal site </title>
+  <title>Miguel Barraza</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="10">
-    <tr>
-      <td><img src="miguel.png" alt="Miguels profile picture"></td>
-      <td><h1>Miguel Barraza</h1>
-      <p>
-        <em> <strong><a href="https://www.uandes.cl/carrera/ingenieria-civil-en-ciencias-de-la-computacion/"> Computer science</a></strong> student at Universidad De los Andes.</em>
-      </p>
-      <p>I'm 24 years old and was born on the 25th of september in 1996, i speak Spanish(mother language), English and basic German.<br>
-    Currently doing an online web development bootcamp by Angela Yu at Udemy</p></td>
-    </tr>
-  </table>
-  <hr size="3" noshade>
-  <h3> Education </h3>
-  <ul>
-    <li> <a href="https://ciademariaseminario.cl"> Colegio Compañía de María Seminario.</a></li>
-    <li> <a href="https://www.uandes.cl"> Universidad de los Andes.</a></li>
-  </ul>
-  <hr size = "3" noshade>
-  <h3> Work Experience</h3>
-  <table cellspacing = "10">
-    <thead>
-      <tr>
-        <th>Year</th>
-        <th>Place</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2016-2017</td>
-        <td>Chula Vista Resort, Winsconsin Dells WI</td>
-        <td>Kitchen Assistant</td>
-      </tr>
-      <tr>
-        <td>2018</td>
-        <td>Universidad de los Andes, Santiago de Chile</td>
-        <td>Class Assistant for  Algebra e Introduccion al Cálculo</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr size = "3" noshade>
-  <h3>Skills</h3>
-    <table cellspacing = "10">
-      <tr>
-        <td>Python</td>
-        <td>⭐️⭐️⭐️</td>
-      </tr>
-      <tr>
-        <td>C</td>
-        <td>⭐️⭐️⭐️</td>
-      </tr>
-      <tr>
-        <td>C#</td>
-        <td>⭐️⭐️⭐️</td>
-      </tr>
-      <tr>
-        <td>HTML</td>
-        <td>⭐️⭐️</td>
-      </tr>
-    </table>
-  <hr size = "3" noshade>
-  <a href="hobbies.html"> My Hobbies</a><br>
-  <a href="contactme.html"> Contact me</a>
+  <div class="top-container">
+    <img class="top-cloud" src="Images/cloud.png" alt="cloud-img">
+    <h1>Miguel Barraza.</h1>
+    <h2 class="student"><span>Computer science</span> student</h2>
+    <img class="bottom-cloud" src="Images/cloud.png" alt="cloud-img">
+    <img src="Images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="miguel.png" alt="miguels-picture">
+      <h2>Hello.</h2>
+      <p class="intro">Welcome to my page, here's where i will be trying new things related to web development.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="piano-img" src="piano.png" alt="piano-img">
+        <h3 class="ability-desc">Play the piano.</h3>
+        <p class="ability-desc">Though i no longer do it as often , i used to play piano a lot and i still remember some of my favorite songs.</p>
+      </div>
+      <div class="skill-row">
+        <img class="guitar-img" src="guitar.png" alt="guitar-img">
+        <h3 class="ability-desc">Play the guitar.</h3>
+        <p class="ability-desc">Not really an expert i dont really know much theory about it , basically i play whatever i wanna play and the harder the song is the more i advance.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>if you like music and wanna share some artist or songs</h3>
+      <p class="contact-message">Or we can talk about coding as well, for all of that here is where you contact me.</p>
+      <a href="mailto:mabarraza96@gmail.com" class="btn">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://saf.uandes.cl/ing/default/index">LinkedIn</a>
+    <a class="footer-link" href="https://uandes.instructure.com/">Twitter</a>
+    <a class="footer-link" href="https://mi.uandes.cl/PROD/bwwkhome.P_DispHome?P_Tipo=0">Website</a>
+    <p class= "rights">© 2018 Miguel Barraza.</p>
+  </div>
 
 </body>
 
